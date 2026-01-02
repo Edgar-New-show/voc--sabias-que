@@ -1,6 +1,6 @@
 let curiosidades = [];
 
-fetch("data/dadosCuriosidade.json")
+fetch("dadosCuriosidade.json")
   .then(res => res.json())
   .then(dados => {
     curiosidades = dados;
