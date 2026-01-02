@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.cabecario {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: #0b1c2d;a
+  position: relative;
+  z-index: 1000;
+}
+
+.logo {
+  height: 45px;
+}
+
+/* MENU HAMBÚRGUER */
+.menu-toggle {
+  display: flex;
+  width: 30px;
+  height: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  height: 4px;
+  width: 100%;
+  background: #00b4ff;
+  border-radius: 2px;
+  transition: 0.4s;
+}
+
+/* MENU */
+.menu {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background: #112a45;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 25px 20px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: 0.3s ease;
+  z-index: 999;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* MENU ATIVO */
+.menu.active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+/* ANIMAÇÃO DO HAMBÚRGUER */
+.menu-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}

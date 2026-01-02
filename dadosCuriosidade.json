@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "categoria": "anime",
+    "titulo": "Anime mais longo",
+    "texto": "Sabias que o anime mais longo tem mais de 2000 episódios?",
+    "imagem": "img/3.jpg"
+  },
+  {
+    "id": 3,
+    "categoria": "anime",
+    "titulo": "Anime mais longo",
+    "texto": "Sabias que o anime mais longo tem mais de 2000 episódios?",
+    "imagem": "img/3.jpg"
+  },
+  {
+    "id": 2,
+    "categoria": "tecnologia",
+    "titulo": "A internet ouve o espaço",
+    "texto": "",
+    "imagem": "img/2.jpg"
+  },
+  {
+  "id": 4,
+  "categoria": "tecnologia",
+  "titulo": "O corpo humano tem mais de 96 mil km de vasos sanguíneos.",
+  "texto": "Para se ter uma ideia da escala, essa distância é suficiente para dar mais de duas voltas completas ao redor da Terra, cuja circunferência é de cerca de 40.000 km.\n\nA explicação está na anatomia microscópica do sistema circulatório:\n\nA Mágica dos Capilares: A grande maioria dessa extensão (cerca de 98%) vem dos capilares. Eles são os menores vasos do corpo, tão finos que são invisíveis a olho nu — cerca de 10 vezes mais finos que um fio de cabelo.\n\nDensidade Extrema: Existem bilhões de capilares espalhados por quase todos os tecidos para garantir que o oxigênio e os nutrientes cheguem a cada uma das trilhões de células do organismo.\n\nDiferença por Idade: Em uma criança, esse sistema mede cerca de 60.000 km, crescendo à medida que o corpo se desenvolve até atingir a marca de quase 100.000 km no adulto.\n\nUm ponto de debate científico:\nEmbora o número de 100.000 km seja amplamente citado em materiais educativos, estudos modernos sugerem que essa estimativa pode ser exagerada.\n\nA única parte do corpo humano que não possui vasos sanguíneos é a córnea, para que a visão não seja obstruída.",
+  "imagem": "img/8.jpg"
+}
+]
